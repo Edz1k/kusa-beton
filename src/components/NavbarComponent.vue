@@ -7,8 +7,9 @@ interface NavItem {
 }
 
 const navItems = ref<NavItem[]>([
-  { name: 'Наши Услуги', href: '#services' },
+  { name: 'Бетон', href: '#assortiment' },
   { name: 'О нас', href: '#about' },
+  { name: 'Услуги', href: '#pumps' },
   { name: 'Контакты', href: '#contacts' },
 ])
 
@@ -74,7 +75,7 @@ onMounted(() => {
       <div class="flex items-center space-x-4 md:hidden">
         <a href="tel:+77474252583" class="text-gray-700 flex items-center">
           <div class="i-mdi-whatsapp text-xl text-green-500 mr-2" />
-          <span class="text-sm">+7 (705) 124-59-88</span>
+          <span class="text-sm">+7 (775) 163-26-27</span>
         </a>
         <!-- Бургер -->
         <div
