@@ -71,6 +71,9 @@ catalogs:
       specifier: ^2.2.10
       version: 2.2.10
   frontend:
+    '@iconify-json/mdi':
+      specifier: ^1.2.3
+      version: 1.2.3
     '@vueuse/core':
       specifier: ^13.3.0
       version: 13.3.0
@@ -112,7 +115,7 @@ importers:
         specifier: catalog:build
         version: 1.2.9
       '@iconify-json/mdi':
-        specifier: ^1.2.3
+        specifier: catalog:frontend
         version: 1.2.3
       '@types/node':
         specifier: catalog:dev
