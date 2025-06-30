@@ -2,45 +2,29 @@
 defineOptions({
   name: 'IndexPage',
 })
-
-const name = ref('')
-
-const router = useRouter()
-function go() {
-  if (name.value)
-    router.push(`/hi/${encodeURIComponent(name.value)}`)
-}
 </script>
 
 <template>
-  <div>
-    <div i-carbon-campsite text-4xl inline-block />
-    <p>
-      <a rel="noreferrer" href="https://github.com/antfu-collective/vitesse-lite" target="_blank">
-        Vitesse Lite
-      </a>
-    </p>
-    <p>
-      <em text-sm op75>Opinionated Vite Starter Template</em>
-    </p>
+  <section
+    id="hero"
+    class="bg-[url('/background.png')] flex min-h-screen items-center relative bg-cover bg-center"
+  >
+    <div class="bg-black/60 inset-0 absolute z-0" aria-hidden="true" />
 
-    <div py-4 />
-
-    <TheInput
-      v-model="name"
-      placeholder="What's your name?"
-      autocomplete="false"
-      @keydown.enter="go"
-    />
-
-    <div>
-      <button
-        class="text-sm m-3 btn"
-        :disabled="!name"
-        @click="go"
-      >
-        Go
-      </button>
+    <div class="mx-auto px-4 relative z-10 container">
+      <div class="text-white py-12 flex flex-col min-h-[70vh] items-start justify-center md:items-start">
+        <div class="text-center w-full space-y-6">
+          <h1 class="text-2xl leading-tight font-bold md:text-6xl sm:text-5xl">
+            Купить бетон с доставкой в Алматы по самым выгодным ценам
+          </h1>
+          <p class="text-base sm:text-lg">
+            Компания «Kusa-Beton» предлагает доставку и производство бетона, керамзита и растворов с гарантией качества по всей стране.
+          </p>
+          <div class="mt-6">
+            <RequestModal />
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </template>

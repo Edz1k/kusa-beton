@@ -26,7 +26,9 @@ catalogs:
     vitest: ^3.2.3
     vue-tsc: ^2.2.10
   frontend:
+    '@iconify-json/mdi': ^1.2.3
     '@vueuse/core': ^13.3.0
+    inputmask: ^5.0.9
     vue: ^3.5.16
     vue-router: ^4.5.1
 onlyBuiltDependencies:
