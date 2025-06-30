@@ -60,7 +60,7 @@
         </div>
         <div class="text-center space-x-4 sm:text-right">
           <a href="#about" class="hover:text-red-600">О нас</a>
-          <a href="#assortment" class="hover:text-red-600">Ассортимент</a>
+          <a href="#assoritment" class="hover:text-red-600">Ассортимент</a>
           <a href="#contacts" class="hover:text-red-600">Контакты</a>
         </div>
       </div>
