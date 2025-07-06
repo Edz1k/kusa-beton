@@ -40,11 +40,8 @@ const products: ProductItem[] = [
               class="border border-gray-200 rounded-full h-24 w-24 shadow-sm object-contain"
             >
           </div>
-          <div class="text-sm text-gray-600 mb-1">
+          <div class="text-sm text-gray-600 mb-1 py-2">
             {{ item.note }}
-          </div>
-          <div class="text-lg font-semibold mb-2">
-            {{ item.price }}
           </div>
           <OrderComponent />
         </div>
