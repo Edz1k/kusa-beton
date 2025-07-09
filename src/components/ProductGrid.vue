@@ -1,19 +1,19 @@
 <script setup lang="ts">
 interface ProductItem {
   image: string
-  price: string
+
   note?: string
 }
 
 const products: ProductItem[] = [
-  { image: '/marks/100.webp', price: 'от 19 500 ₸/м³', note: 'Бетон B 7.5 (M100)' },
-  { image: '/marks/150.webp', price: 'от 20 500 ₸/м³', note: 'Бетон B 12.5 (M150)' },
-  { image: '/marks/200.webp', price: 'от 21 500 ₸/м³', note: 'Бетон B 15 (M200)' },
-  { image: '/marks/250.webp', price: 'от 22 500 ₸/м³', note: 'Бетон B 20 (M250)' },
-  { image: '/marks/300.webp', price: 'от 23 500 ₸/м³', note: 'Бетон B 22.5 (M300)' },
-  { image: '/marks/350.webp', price: 'от 24 500 ₸/м³', note: 'Бетон B 25 (M350)' },
-  { image: '/marks/400.webp', price: 'от 27 000 ₸/м³', note: 'Бетон B 30 (M400)' },
-  { image: '/marks/450.webp', price: 'от 28 500 ₸/м³', note: 'Бетон B 35 (M450)' },
+  { image: '/marks/100.webp', note: 'Бетон B 7.5 (M100)' },
+  { image: '/marks/150.webp', note: 'Бетон B 12.5 (M150)' },
+  { image: '/marks/200.webp', note: 'Бетон B 15 (M200)' },
+  { image: '/marks/250.webp', note: 'Бетон B 20 (M250)' },
+  { image: '/marks/300.webp', note: 'Бетон B 22.5 (M300)' },
+  { image: '/marks/350.webp', note: 'Бетон B 25 (M350)' },
+  { image: '/marks/400.webp', note: 'Бетон B 30 (M400)' },
+  { image: '/marks/450.webp', note: 'Бетон B 35 (M450)' },
 ]
 </script>
 
