@@ -43,7 +43,6 @@ onMounted(() => {
     ]"
   >
     <div class="mx-auto px-4 py-1 flex items-center justify-between container">
-      <!-- Логотип -->
       <a href="/" class="flex items-center">
         <div class="p-2 rounded bg-red-500 overflow-hidden">
           <img src="/logo.png" alt="Logo" class="h-20 w-auto scale-140 transform object-cover">
@@ -63,20 +62,28 @@ onMounted(() => {
       </nav>
 
       <!-- Десктоп-кнопка -->
-      <div class="hidden md:block">
+      <!-- Десктоп-кнопка -->
+      <div class="flex-row-reverse hidden md:flex">
         <RequestModal />
-        <a href="tel:+77751632627" class="text-gray-700 mt-2 flex items-center">
+        <div class="text-gray-700 mt-2 flex items-center">
           <div class="i-mdi-phone text-xl text-green-500 mr-2" />
-          <span class="text-sm">+7 (775) 163-26-27</span>
-        </a>
+          <div class="mr-10 flex flex-col">
+            <a href="tel:+77751632627" class="text-sm hover:text-red-600">+7 (775) 163-26-27</a>
+            <a href="tel:+77076636368" class="text-sm hover:text-red-600">+7 (707) 663-63-68</a>
+          </div>
+        </div>
       </div>
 
       <!-- Мобильный блок -->
+      <!-- Мобильный блок -->
       <div class="flex items-center space-x-4 md:hidden">
-        <a href="tel:+77751632627" class="text-gray-700 flex items-center">
+        <div class="text-gray-700 flex items-center">
           <div class="i-mdi-whatsapp text-xl text-green-500 mr-2" />
-          <span class="text-sm">+7 (775) 163-26-27</span>
-        </a>
+          <div class="flex flex-col space-y-1">
+            <a href="tel:+77751632627" class="text-sm hover:text-red-600">+7 (775) 163-26-27</a>
+            <a href="tel:+77076636368" class="text-sm hover:text-red-600">+7 (707) 663-63-68</a>
+          </div>
+        </div>
         <!-- Бургер -->
         <div
           class="text-3xl text-gray-700 flex h-8 w-8 cursor-pointer transition-all duration-300 items-center justify-center"

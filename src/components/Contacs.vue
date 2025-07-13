@@ -16,9 +16,14 @@
             <p class="text-lg font-semibold">
               📞 Телефон:
             </p>
-            <a href="tel:+77751632627" class="text-xl text-red-600 font-medium hover:underline">
-              +7 (775) 163-26-27
-            </a>
+            <div class="flex flex-col space-y-1">
+              <a href="tel:+77751632627" class="text-xl text-red-600 font-medium hover:underline">
+                +7 (775) 163-26-27
+              </a>
+              <a href="tel:+77076636368" class="text-xl text-red-600 font-medium hover:underline">
+                +7 (707) 663-63-68
+              </a>
+            </div>
           </div>
           <div>
             <p class="text-lg font-semibold">
